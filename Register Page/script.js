@@ -7,6 +7,6 @@ document.getElementById("registrationForm").addEventListener("submit", function(
     var gender = document.getElementById("gender").value;
     var education = document.getElementById("education").value;
     
-    //alert(fullname + " registered successfully!");
+    alert(fullname + " registered successfully!");
   });
   
