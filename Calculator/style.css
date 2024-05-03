@@ -27,3 +27,23 @@ body {
     color: #fff;
     text-align: right;
 }
+.input-group {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+}
+
+.input-group input[type="button"] {
+    padding: 20px; /* Increase button padding */
+    border: none;
+    border-radius: 5px;
+    font-size: px; /* Increase font size */
+    background-color: #888;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.input-group input[type="button"]:hover {
+    background-color: #666;
+}
