@@ -62,3 +62,20 @@ li {
 li:last-child {
     border-bottom: none;
 }
+.close, .favorite {
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.close {
+    color: red;
+}
+
+.favorite {
+    color: gold;
+}
+
+.favorite-task {
+    font-weight: bold;
+    color: gold;
+}
