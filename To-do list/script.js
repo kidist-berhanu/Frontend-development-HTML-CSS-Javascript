@@ -23,3 +23,21 @@ function addTask() {
                 taskList.insertBefore(li, taskList.firstChild); // Move to the top of the list
             }
         };
+      const closeSpan = document.createElement('span');
+        closeSpan.textContent = '×';
+        closeSpan.className = 'close';
+        closeSpan.onclick = function () {
+            taskList.removeChild(li);
+        };
+    
+        const iconContainer = document.createElement('div');
+        iconContainer.style.display = 'flex';
+        iconContainer.style.gap = '10px';
+        iconContainer.appendChild(favoriteSpan);
+        iconContainer.appendChild(closeSpan);
+    
+        li.appendChild(iconContainer);
+    
+        taskList.appendChild(li);
+        taskInput.value = '';
+}
