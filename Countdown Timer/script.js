@@ -1,4 +1,3 @@
-// script.js
 document.getElementById('start-button').addEventListener('click', function() {
     // Set the date we're counting down to
     const countDownDate = new Date().getTime() + (24 * 60 * 60 * 1000); // 24 hours from now
