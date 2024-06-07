@@ -1,4 +1,3 @@
-// script.js
 let countdownFunction;
 let countdownActive = false;
 
